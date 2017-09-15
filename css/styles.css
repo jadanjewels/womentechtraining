@@ -1,18 +1,27 @@
 .btn-primary {
-  background-color: red;
+  background-color: lightblue;
 }
 .btn-group-lg>.btn, .btn-lg{
-  border-radius: 0px;
+  border-radius: 5px;
+  border: 0px solid transparent;
 }
 .col-md-4 {
-  height: 50px;
+ background-color: lightblue;
 }
-.red {
-  background-color: red;
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+  background-color: lightblue;
 }
-.green {
-  background-color: green;
+img{
+  max-width: 100%;
+  max-height: 100%;
 }
-.blue {
-  background-color: blue;
+a {
+  background-color: lightblue;
+  color: #333;
+  padding: 7px;
+
+}
+footer {
+  padding: 20px;
 }
